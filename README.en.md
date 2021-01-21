@@ -1,7 +1,7 @@
 # 后端面试知识点总结
 
 #### Description
-python后端面试知识点准备
+后端面试知识点准备
 
 #### Software Architecture
 Software architecture description
