@@ -28,9 +28,9 @@ python内存垃圾回收以引用计数为主（缺点：循环引用无法解�
 
  python主要是通过thread和threading这两个模块来实现多线程支持。python的thread模块是比较底层的模块，python的threading模块是对thread做了一些封装，可以更加方便的被使用。**但是python（cpython）由于GIL的存在无法使用threading充分利用CPU资源，如果想充分发挥多核CPU的计算能力需要使用multiprocessing模块(多进程)**
 
-多线程实现同步有四种方式：
+**多线程实现同步有四种方式：**
 
-锁机制，信号量，条件判断和同步队列。
+**锁机制，信号量，条件判断和同步队列。**
 
  需要注意的是，Python有一个GIL（Global Interpreter Lock）机制，任何线程在运行之前必须获取这个全局锁才能执行，每当执行完100条字节码，全局锁才会释放，切换到其他线程执行。
 
