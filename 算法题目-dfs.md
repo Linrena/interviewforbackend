@@ -77,3 +77,25 @@ class Solution:
         return ans
 ```
 
+## 括号生成
+
+数字 `n` 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 **有效的** 括号组合。
+
+```python
+def generateParenthesis(self, n: int) -> List[str]:
+        ans = []
+        def dfs(left, right, combine):  # 每次进来保证left >= right
+            if left == right == 3:
+                ans.append(combine)
+                return
+            elif 3 > left > right:
+                dfs(left + 1, right, combine + '(')
+                dfs(left, right + 1, combine + ')')
+            elif 3 > left:
+                dfs(left + 1, right, combine + '(')
+            elif right < 3:
+                dfs(left, right + 1, combine + ')')
+        dfs(0, 0, '') 
+        return ans
+```
+
