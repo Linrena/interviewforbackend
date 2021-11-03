@@ -18,6 +18,6 @@ I am very grateful for those knowledge bloggers on the Internet which summary an
 [字节跳动火爆内推!!!](https://www.nowcoder.com/discuss/663652?source_id=profile_create_nctrack&channel=-1)
 
 #### Todos
-[] 增加微服务模块
-[] 增加大数据处理基础知识模块
-[] 增加分布式算法基本知识
+- [ ] 增加微服务模块
+- [ ] 增加大数据处理基础知识模块
+- [ ] 增加分布式算法基本知识
