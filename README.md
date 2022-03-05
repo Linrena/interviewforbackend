@@ -3,7 +3,7 @@
 #### 介绍
 最全的后端岗面试知识点！！！
 
-不仅有基本的计算机基础通用知识，还包括java, python语言等面试知识点。
+不仅有基本的计算机基础通用知识，还包括 golang 语言面试知识点。
 
 一起拿下一线大厂offer !
 
@@ -16,8 +16,3 @@
 I am very grateful for those knowledge bloggers on the Internet which summary and share knowledge points, which helps me to constitute this repository.
 
 [字节跳动火爆内推!!!](https://www.nowcoder.com/discuss/663652?source_id=profile_create_nctrack&channel=-1)
-
-#### Todos
-- [ ] 增加微服务模块
-- [ ] 增加大数据处理基础知识模块
-- [ ] 增加分布式算法基本知识
